@@ -16,7 +16,7 @@ body {background: url("img/bg2.jpg");background-size:100% auto;}
 .menu li a:hover{color: #ffc100;}
 .contacts {position:relative;bottom: 70px;float:right;font-family: georgia; font-weight: 600;}
 .contacts .tel{color:#fff; font-size: 20pt;}
-.contacts .mail{color:#fff; font-size: 12pt;font-weight: 500;}
+.contacts .mail{color:#fff; font-size: 12pt;font-weight: 500;text-decoration: none;}
 .footer, .push{height: 30px;margin-left:auto; margin-right:auto;}
 .footer .sh{background-color: #000;width:100%;height:30px; opacity: 0.6;float:right;}
 .footer .foot-text{position:relative;color:#fff;top:-32px;height: 0px;font-size: 16pt;font-weight: 500;}
