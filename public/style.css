@@ -2,23 +2,23 @@ html, body {height:100%;}
 body {background: url("img/bg2.jpg");background-size:100% auto;}
 * {margin:0;}
 .page {height: auto !important; margin: 0 auto -30px; min-height:100%;}
-.inner {width:1200px;margin-left: auto; margin-right: auto;}
+.inner {min-width: 60%;width:70%;margin-left: auto; margin-right: auto;}
 .header{width:100%;height:80px;background-repeat:repeat-x;position:relative;z-index: 60;}
 .header .sh{background-color: #000;width:100%;height:80px; opacity: 0.3;float:right;}
 .logo{position:relative;bottom: 78px;float:left;padding-left: 10px;}
-.menu{position:relative;font-weight:bold;list-style:none outside none;}
-.menu.up{bottom: 60px;font-size:24pt;}
-.menu.down{bottom: 30px;font-size:16pt;float:right;}
+.menu{position:relative;list-style-type:disc;}
+.menu.up{bottom: 60px;font-size:20pt;font-weight:600;}
+.menu.up > li{padding-left: 50px;}
+.menu.down{height:0px !important;top:-32px;font-size:16pt;float:right;}
 .menu li{display:block;float:left;position:relative;height:33px;}
-.menu li.up{padding-left: 50px;}
 .menu li a {color: #fff;;text-decoration:none;}
 .menu li a.active{color: #ffc100;}
 .menu li a:hover{color: #ffc100;}
-.contacts {position:relative;bottom: 55px;float:right;font-family: georgia; font-weight: 600;}
+.contacts {position:relative;bottom: 70px;float:right;font-family: georgia; font-weight: 600;}
 .contacts .tel{color:#fff; font-size: 20pt;}
 .contacts .mail{color:#fff; font-size: 12pt;font-weight: 500;}
 .footer, .push{height: 30px;margin-left:auto; margin-right:auto;}
 .footer .sh{background-color: #000;width:100%;height:30px; opacity: 0.6;float:right;}
-.footer .foot-text{position:relative;color:#fff;top:-30px;height: 0px;font-size: 16pt;font-weight: 500;}
+.footer .foot-text{position:relative;color:#fff;top:-32px;height: 0px;font-size: 16pt;font-weight: 500;}
 .footer a {text-decoration: none; padding: 0px 10px;color: #ff7021;}
 .footer a:hover {text-decoration: underline; color: #fff;}
